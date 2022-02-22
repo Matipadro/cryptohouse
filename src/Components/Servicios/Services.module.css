@@ -1,0 +1,70 @@
+
+.servicios{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.item{
+    width: 15rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+}
+.item h3{
+    width: 120%;
+    font-family: var(--american-font);
+    font-weight: 300;
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    background-color: var(--alter3-color);
+    border: 5px solid var(--main-color);
+    text-align: center;
+}
+
+.imgContainer{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    border: 5px solid var(--main-color);
+    border-bottom: none;
+    position: relative;
+}
+.imgContainer::before{
+    content: '';
+    position: absolute;
+    bottom: -69px;
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--alter3-color);
+    border: 5px solid var(--main-color);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.imgContainer img{
+    width: 9.375rem;
+    height: 9.375rem;
+    background-color: rgb(61, 52, 4);
+    filter:brightness(300%) ;
+    padding: 1rem;
+    z-index: 10;
+}
+.imgContainer::after{
+    content: '';
+    position: absolute;
+    bottom: -90px;
+    width: .5rem;
+    height: 24.4rem;
+    background-color: var(--alter3-color);
+    z-index: 0;
+}

@@ -1,0 +1,18 @@
+.certificados h2{
+    font-family: var(--american-font);
+    font-weight: 300;
+    font-size: 6rem;
+    text-align: center;
+    background-color: var(--alter-color);
+    border-top: 2px solid rgba(70, 70, 70, 0.803);
+    border-bottom: 2px solid rgba(70, 70, 70, 0.803);
+}
+
+.certifiacionContainer{
+    margin-top: 2rem;
+    background: linear-gradient(to right, rgba(245, 215, 62, 0.5)0%, rgba(245, 216, 62)50%, rgba(245, 215, 62, 0.5)100%);
+    text-align: center;
+    font-family: var(--calibri-font);
+    font-size: 1.5rem;
+    padding: 2rem 16rem;
+}

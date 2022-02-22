@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Justluks09",
+        "cargo": "Director de Marketing",
+        "siglas": "CMO",
+        "redes": [
+            {
+                "instagram": "https://instagram.com/Justluks09"
+            },
+            {
+                "twitch": "https://twitch.tv/justluks09"
+            },
+            {
+                "twitter": "https://twitter.com/JustLuks09"
+            },
+            {
+                "youtube": "https://youtube.com/c/JustLuks09"
+            }
+        ]
+    },
+    {
+        "name": "Lucas Ledesma",
+        "cargo": "Director Ejecutivo",
+        "siglas": "CEO",
+        "redes": [
+            {
+                "instagram": "https://instagram.com/Justluks09"
+            },
+            {
+                "twitch": "https://twitch.tv/justluks09"
+            },
+            {
+                "twitter": "https://twitter.com/JustLuks09"
+            },
+            {
+                "youtube": "https://youtube.com/c/JustLuks09"
+            }
+        ]
+    },
+    {
+        "name": "Chochtawn",
+        "cargo": "Director de Operaciones",
+        "siglas": "COO",
+        "redes": [
+            {
+                "instagram": "https://instagram.com/chorchtawn"
+            },
+            {
+                "twitch": "https://twitch.tv/chorchtawn"
+            },
+            {
+                "twitter": "https://twitter.com/chorchtawn"
+            },
+            {
+                "youtube": "https://youtube.com/chorchtawn"
+            }
+        ]
+    },
+    {
+        "name": "Juanpold",
+        "cargo": "Director de Recursos Humanos",
+        "siglas": "CHRO",
+        "redes": [
+            {
+                "instagram": "https://instagram.com/juanpold98"
+            },
+            {
+                "twitch": "https://twitch.tv/juanpold98"
+            },
+            {
+                "twitter": "https://twitter.com/JuanPold98"
+            },
+            {
+                "youtube": "https://youtube.com/channel/UC6ghI8eEY4ab6WOC6kEWmUw"
+            }
+        ]
+    },
+    {
+        "name": "JungleCryptos",
+        "cargo": "Creative Contente Area",
+        "siglas": "CCA",
+        "redes": [
+            {
+                "instagram": "https://instagram.com/junglefocus"
+            },
+            {
+                "twitch": "https://twitch.tv/junglefocus"
+            },
+            {
+                "twitter": "https://twitter.com/focusjungle"
+            },
+            {
+                "youtube": "https://youtube.com/JungleCryptos"
+            }
+        ]
+    },
+    {
+        "name": "0800KADI",
+        "cargo": "Creative Contente Area",
+        "siglas": "CCA",
+        "redes": [
+            {
+                "instagram": "https://twitter.com/KADI_0800"
+            },
+            {
+                "twitch": "https://twitch.tv/0800kadi"
+            },
+            {
+                "twitter": "https://instagram.com/0800kadi"
+            },
+            {
+                "youtube": "https://youtube.com/c/KADIG0800"
+            }
+        ]
+    },
+    {
+        "name": "Federico Val 'Opytha'",
+        "cargo": "Marketing Customer Success",
+        "siglas": "MCS",
+        "redes": [
+            {
+                "instagram": "https://www.instagram.com/_fede.val"
+            }
+        ]
+    },
+    {
+        "name": "Emanuel Correa 'El Pela'",
+        "cargo": "Director Financiero",
+        "siglas": "CFO",
+        "redes": [
+            {
+                "facebook": "https://www.facebook.com/emanuel.carreras"
+            },
+            {
+                "twitter": "https://twitter.com/emanuelcarreras?t=eeuQNZAdxm0NC9o2QNjXXQ&s=09"
+            }
+        ]
+    }
+]
