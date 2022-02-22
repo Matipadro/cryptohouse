@@ -9,10 +9,15 @@ import Partners from '../../Pages/Partners'
 // import Comunidad from '../../Pages/Servicios'
 import Nosotros from '../../Pages/Nosotros'
 import Servicios from '../../Pages/Servicios'
+import criptoTune from '../../assets/audio/criptoTune.mp3'
 
 const Home = () => {
     return (
         <div >
+            <audio autoplay controls loop>
+                <source src={criptoTune} type="audio/mpeg" />
+                <source src="/resources/Cripto Tune.wav" type="audio/wav" />
+		    </audio>
             <NavBar />
             <Routes className='mainContainer'>
                 <Route exact path="/" element={<HomePage />} />
@@ -25,6 +30,7 @@ const Home = () => {
                 <Route path='*' element={<Navigate to="/" />} />
             </Routes>
             <Footer />
+
         </div>
     );
 };
