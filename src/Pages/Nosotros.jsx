@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from '../Styles/Nosotros.module.css'
 import Comunidad from '../Components/Comunidad/Comunidad'
+import Equipo from '../Components/Equipo/Equipo';
 
-function Influencers() {
+function Nosotros() {
     return (
         <div className={styles.nosotrosContainer}>
 
@@ -23,8 +24,9 @@ function Influencers() {
         </div>
 
         <Comunidad />
+        <Equipo/>
         </div>
     );
 }
 
-export default Influencers;
+export default Nosotros;

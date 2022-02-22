@@ -1,0 +1,70 @@
+.teamContainer{
+    min-height: 100vh;
+}
+
+.popup{
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, rgba(245, 215, 62, 0.5)0%, rgba(245, 216, 62)50%, rgba(245, 215, 62, 0.5)100%);
+}
+
+.cards{
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s;
+    text-decoration: none;
+}
+.card:hover{
+    filter: drop-shadow(0 0 15px var(--main-color));
+    transform: scale(1.2);
+}
+.card label{
+    position: relative;
+    color: var(--second-color);
+    font-family: var(--calibri-font);
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: .5rem 0;
+    background-color: var(--alter3-color);
+    border: 2px solid var(--main-color);
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    text-decoration: none;
+}
+.card label::before,
+.card label::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-top: .35rem;
+    transform: rotate(45deg);
+    background-color: var(--alter3-color);
+    border: 2px solid var(--main-color);
+    z-index: -1;
+}
+.card label::before{
+    left: 0;
+    margin-left: -1.2rem;
+}
+.card label::after{
+    right: 0;
+    margin-right: -1.2rem;
+}

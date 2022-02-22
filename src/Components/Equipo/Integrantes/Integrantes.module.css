@@ -1,0 +1,103 @@
+.integrante{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(245, 215, 62, 0.5)0%, rgba(255, 255, 255)50%, rgba(245, 215, 62, 0.5)100%);
+    padding: 4rem 0;
+    position: relative;
+}
+.perfilImg{
+    width: 32.5rem;
+    height: 37.188rem;
+    z-index: 10;
+}
+
+.card{
+    width: 16rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: .2rem;
+}
+.card label{
+    position: relative;
+    color: var(--second-color);
+    font-family: var(--calibri-font);
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: .5rem 2rem;
+    background-color: var(--alter3-color);
+    border: 2px solid var(--main-color);
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -.1rem;
+}
+
+.card label::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: .35rem;
+    transform: rotate(45deg);
+    background-color: var(--alter3-color);
+    border: 2px solid var(--main-color);
+}
+.card label::after{
+    right: 0;
+    margin-right: -1.2rem;
+    border-left: none;
+    border-bottom: none;
+}
+.card .cargo{
+    color: var(--text3-color);
+    font-family: var(--calibri-font);
+    font-weight: 100;
+    font-size: 1rem;
+    padding: .5rem;
+}
+.card .redes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    background-color: var(--alter3-color);
+    border: 2px solid var(--main-color);
+    border-left: none;
+    border-right: none;
+    margin-top: 6.5rem;
+    margin-left: -.1rem;
+    padding: .6rem 0;
+}
+.card .redes::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-top: .45rem;
+    transform: rotate(45deg);
+    background-color: var(--alter3-color);
+    border: 2px solid var(--main-color);
+    right: 0;
+    margin-right: -1.4rem;
+    border-left: none;
+    border-bottom: none;
+}
+
+.close{
+    width: 5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+    cursor: pointer;
+}

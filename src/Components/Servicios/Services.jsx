@@ -6,7 +6,7 @@ import ceo from '../../assets/img/services/ceo.png'
 import auditoria from '../../assets/img/services/auditoria.jpg'
 import proximamente from '../../assets/img/services/proximamente.png'
 
-function Comunidad() {
+function Servicio() {
     return (
         <div className={styles.serviciosContainer}>
 
@@ -53,4 +53,4 @@ function Comunidad() {
     );
 }
 
-export default Comunidad;
+export default Servicio;

@@ -1,6 +1,9 @@
 [
     {
+        "id": "1",
         "name": "Justluks09",
+        "link": "justluks",
+        "img":"/static/media/hexaLuks.7d722ecfa84d94ce6820.png",
         "cargo": "Director de Marketing",
         "siglas": "CMO",
         "redes": [
@@ -19,26 +22,10 @@
         ]
     },
     {
-        "name": "Lucas Ledesma",
-        "cargo": "Director Ejecutivo",
-        "siglas": "CEO",
-        "redes": [
-            {
-                "instagram": "https://instagram.com/Justluks09"
-            },
-            {
-                "twitch": "https://twitch.tv/justluks09"
-            },
-            {
-                "twitter": "https://twitter.com/JustLuks09"
-            },
-            {
-                "youtube": "https://youtube.com/c/JustLuks09"
-            }
-        ]
-    },
-    {
+        "id": "3",
         "name": "Chochtawn",
+        "link": "chorchtawn",
+        "img":"/static/media/hexaChorch.473477488e38b798ef4d.png",
         "cargo": "Director de Operaciones",
         "siglas": "COO",
         "redes": [
@@ -57,7 +44,32 @@
         ]
     },
     {
+        "id": "6",
+        "name": "KADI",
+        "link": "kadi",
+        "img":"/static/media/hexaKadi.08fcdc51877e69fd11c1.png",
+        "cargo": "Creative Contente Area",
+        "siglas": "CCA",
+        "redes": [
+            {
+                "instagram": "https://instagram.com/0800kadi"
+            },
+            {
+                "twitch": "https://twitch.tv/0800kadi"
+            },
+            {
+                "twitter": "https://twitter.com/KADI_0800"
+            },
+            {
+                "youtube": "https://youtube.com/c/KADIG0800"
+            }
+        ]
+    },
+    {
+        "id": "4",
         "name": "Juanpold",
+        "link": "juanpold",
+        "img":"/static/media/hexaJuanpold.b05b4c78b347b514f4e3.png",
         "cargo": "Director de Recursos Humanos",
         "siglas": "CHRO",
         "redes": [
@@ -76,7 +88,10 @@
         ]
     },
     {
+        "id": "5",
         "name": "JungleCryptos",
+        "link": "jungle",
+        "img":"/static/media/hexaJungle.bb9c70e8367ef1200464.png",
         "cargo": "Creative Contente Area",
         "siglas": "CCA",
         "redes": [
@@ -95,26 +110,23 @@
         ]
     },
     {
-        "name": "0800KADI",
-        "cargo": "Creative Contente Area",
-        "siglas": "CCA",
+        "id": "2",
+        "name": "Lucas Ledesma",
+        "link": "lucasledesma",
+        "img":"/static/media/hexaLucas.fddeece1589cd8671fde.png",
+        "cargo": "Director Ejecutivo",
+        "siglas": "CEO",
         "redes": [
             {
-                "instagram": "https://twitter.com/KADI_0800"
-            },
-            {
-                "twitch": "https://twitch.tv/0800kadi"
-            },
-            {
-                "twitter": "https://instagram.com/0800kadi"
-            },
-            {
-                "youtube": "https://youtube.com/c/KADIG0800"
+                "instagram": "https://www.instagram.com/lucas.brazu/"
             }
         ]
     },
     {
+        "id": "7",
         "name": "Federico Val 'Opytha'",
+        "link": "opytha",
+        "img":"/static/media/hexaOpy.19903dbe54a726bf8b75.png",
         "cargo": "Marketing Customer Success",
         "siglas": "MCS",
         "redes": [
@@ -124,7 +136,10 @@
         ]
     },
     {
+        "id": "8",
         "name": "Emanuel Correa 'El Pela'",
+        "link": "emanuelcorrea",
+        "img":"/static/media/hexaPela.d060ef3016886e659ece.png",
         "cargo": "Director Financiero",
         "siglas": "CFO",
         "redes": [
@@ -132,7 +147,7 @@
                 "facebook": "https://www.facebook.com/emanuel.carreras"
             },
             {
-                "twitter": "https://twitter.com/emanuelcarreras?t=eeuQNZAdxm0NC9o2QNjXXQ&s=09"
+                "twitter": "https://twitter.com/emanuelcarreras"
             }
         ]
     }

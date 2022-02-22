@@ -3,7 +3,8 @@
     min-height: 80vh;
     position: relative;
     display: flex;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 15rem;
 }
 .comunidad::after{
@@ -27,24 +28,27 @@
 }
 
 .comunidad h2{
-    width: 100%;
-    height: 15vh;
+    display: inline-block;
+    width: 55%;
+    height: auto;
     font-family: var(--american-font);
     font-weight: 400;
     font-size: 8rem;
     padding: 0rem 6rem;
+    align-self: flex-end;
 }
 .comunidad h2 span{
     color: var(--alter3-color);
 }
 
 .comunidad p{
-    width: 80%;
-    height: 40vh;
-    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin: 0;
+    margin-top: 10rem;
     padding: 3rem;
     font-family: var(--calibri-font);
     font-size: 1.3rem;
     text-align: justify;
-    align-self: flex-end;
+    align-self: flex-start;
 }

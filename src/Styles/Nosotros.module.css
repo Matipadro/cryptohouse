@@ -3,6 +3,8 @@
     min-height: 80vh;
     position: relative;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .nosotros::after{
     content: '';
@@ -25,7 +27,9 @@
 }
 
 .nosotros h2{
-    height: 30vh;
+    display: inline-block;
+    width: 50%;
+    height: auto;
     font-family: var(--american-font);
     font-weight: 400;
     font-size: 14rem;
@@ -35,10 +39,12 @@
 
 .nosotros p{
     width: 50%;
-    height: 45vh;
-    margin: 0 auto;
+    height: auto;
+    margin: 0;
+    margin-top: 10rem;
     padding: 0 1rem;
     padding-top: 1.5rem;
+    padding-bottom: 1rem;
     color: var(--text-color);
     font-family: var(--calibri-font);
     font-size: 1.5rem;

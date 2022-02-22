@@ -10,8 +10,7 @@
 
 .navBar{
     width: 100%;
-    height: auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
     z-index: 100;
 }
 
@@ -19,16 +18,16 @@
     flex-direction: row;
     width: 100%;
     max-width: 100vw;
-    overflow: hidden;
     background-color:var(--alter-color);
     border-top: 2px solid rgba(70, 70, 70, 0.803);
     border-bottom: 2px solid rgba(70, 70, 70, 0.803);
+    overflow: hidden;
     padding: .4rem 0;
 }
 
 .logo{
     width: 25rem;
-    margin-left: auto;
+    margin: 0 auto;
 }
 .darkmode{
     width: 3.5rem;
@@ -36,9 +35,8 @@
     margin-right: 0.6rem;
 }
 .mainMenu{
-    position: sticky;
-    top: 40px;
     width: 100%;
+    padding-top: 1rem;
 }
 
 .mainMenu ul{
@@ -67,11 +65,16 @@
     border: 2px solid var(--main-color);
     border-left: none;
     border-right: none;
+    text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.25rem;
     transition: 0.8s;
     /* transition-delay: 0.2s; */
+}
+.navlink{
+    text-decoration: none;
+    color: var(--second-color);
 }
 .mainMenu ul li:hover .navlink,
 .mainMenu ul li.activo .navlink
@@ -158,4 +161,11 @@
     border-bottom: transparent;
     border-left: transparent;
     /* margin-right: -1.04rem; */
+}
+
+.audioPlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import marco from '../assets/img/marcoFotos.png'
 import styles from '../Styles/Partners.module.css'
 
-function Kyc() {
+function Partners() {
     return (
         <div className={styles.partnersContainer}>
             <div className={styles.partnersTop}>
@@ -37,4 +37,4 @@ function Kyc() {
     );
 }
 
-export default Kyc;
+export default Partners;

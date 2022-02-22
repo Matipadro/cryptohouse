@@ -2,7 +2,9 @@
 .servicios{
     width: 100%;
     margin-top: 5rem;
+    margin-bottom: 8rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     gap: 4rem;

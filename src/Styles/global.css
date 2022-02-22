@@ -43,6 +43,6 @@
 body{
 	background: url(../assets/img/BACKGROUND\ WHITE.png);
 }
-.mainContainer{
-	padding-top: 30vh;
+a{
+	text-decoration: none;
 }
