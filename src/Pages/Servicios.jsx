@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../Styles/Servicios.module.css'
-import Services from '../Components/Servicios/Services'
+import styles from '../Styles/Servicios.module.css';
+import Services from '../Components/Servicios/Services';
 
 function Servicios() {
     return (

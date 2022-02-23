@@ -1,14 +1,12 @@
 import React from 'react';
-import { NavLink, useNavigate } from "react-router-dom";
-import styles from './Integrantes.module.css'
-import team from '../team.json'
-import juanpold from '../../../assets/img/team/juanpoldPerfil.png'
-import equis from '../../../assets/img/X.png'
-import instagram from '../../../assets/img/logoInsta.png'
-import twitter from '../../../assets/img/logoTwitter.png'
-import twitch from '../../../assets/img/logoTwitch.png'
-import youtube from '../../../assets/img/logoYT.png'
-
+import { useNavigate } from "react-router-dom";
+import styles from './Integrantes.module.css';
+import juanpold from '../../../assets/img/team/juanpoldPerfil.png';
+import equis from '../../../assets/img/X.png';
+import instagram from '../../../assets/img/logoInsta.png';
+import twitter from '../../../assets/img/logoTwitter.png';
+import twitch from '../../../assets/img/logoTwitch.png';
+import youtube from '../../../assets/img/logoYT.png';
 
 function Equipo() {
     const history = useNavigate();

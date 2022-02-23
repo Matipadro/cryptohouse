@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../Styles/Nosotros.module.css'
-import Comunidad from '../Components/Comunidad/Comunidad'
+import styles from '../Styles/Nosotros.module.css';
+import Comunidad from '../Components/Comunidad/Comunidad';
 import Equipo from '../Components/Equipo/Equipo';
 
 function Nosotros() {

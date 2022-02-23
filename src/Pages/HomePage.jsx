@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../Styles/HomePage.module.css';
 import highlights from '../assets/video/cryptohouseTeaser.mp4';
-import foto1 from '../assets/img/foto1.jpg'
-import foto2 from '../assets/img/foto2.jpg'
-import foto3 from '../assets/img/foto3.jpg'
+import foto1 from '../assets/img/foto1.jpg';
+import foto2 from '../assets/img/foto2.jpg';
+import foto3 from '../assets/img/foto3.jpg';
 
 function HomePage() {
     return (

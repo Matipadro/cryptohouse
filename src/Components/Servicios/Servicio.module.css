@@ -1,0 +1,62 @@
+.integrante{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5)0%, rgba(255, 255, 255)50%, rgba(255, 255, 255, 0.5)100%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+    position: relative;
+}
+.perfilImg{
+    width: 30rem;
+    height: 30rem;
+    margin-left: 15rem;
+    z-index: 10;
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: .2rem;
+}
+
+.card p{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background-color: var(--main-color);
+    color: var(--text3-color);
+    height: auto;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 2rem 2rem;
+    padding-right: 10rem;
+    color: var(--text-color);
+    font-family: var(--calibri-font);
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 15rem;
+    height: .5rem;
+    background-color: var(--main-color);
+    margin-top: 8rem;
+    margin-left: -12rem;
+}
+
+.close{
+    width: 5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+    cursor: pointer;
+}

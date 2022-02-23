@@ -2,6 +2,16 @@
     min-height: 100vh;
 }
 
+.teamContainer h2{
+    font-family: var(--american-font);
+    font-weight: 300;
+    font-size: 6rem;
+    text-align: center;
+    background-color: var(--alter-color);
+    border-top: 2px solid rgba(70, 70, 70, 0.803);
+    border-bottom: 2px solid rgba(70, 70, 70, 0.803);
+}
+
 .popup{
     display: none;
     position: absolute;

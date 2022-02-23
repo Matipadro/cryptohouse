@@ -9,10 +9,52 @@
 }
 
 .certifiacionContainer{
+    width: 100%;
     margin-top: 2rem;
     background: linear-gradient(to right, rgba(245, 215, 62, 0.5)0%, rgba(245, 216, 62)50%, rgba(245, 215, 62, 0.5)100%);
     text-align: center;
     font-family: var(--calibri-font);
     font-size: 1.5rem;
-    padding: 2rem 16rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+.certifiacionContainer::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: .5rem;
+    background-color: var(--alter3-color);
+}
+
+.item{
+    position: relative;
+}
+
+.item label{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--alter3-color);
+    font-family: var(--american-font);
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.item:hover .logo{
+    filter: grayscale(100%) brightness(300%);
+}
+
+.item:hover label{
+    color: var(--main-color);
 }

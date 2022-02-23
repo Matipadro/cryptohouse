@@ -1,16 +1,16 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import styles from './Equipo.module.css'
-import Card from './Card'
-import team from './team.json'
-import chorch from '../../assets/img/team/hexaChorch.png'
-import juanpold from '../../assets/img/team/hexaJuanpold.png'
-import jungle from '../../assets/img/team/hexaJungle.png'
-import kadi from '../../assets/img/team/hexaKadi.png'
-import lucas from '../../assets/img/team/hexaLucas.png'
-import luks from '../../assets/img/team/hexaLuks.png'
-import opy from '../../assets/img/team/hexaOpy.png'
-import pela from '../../assets/img/team/hexaPela.png'
+import styles from './Equipo.module.css';
+import Card from './Card';
+import team from './team.json';
+import chorch from '../../assets/img/team/hexaChorch.png';
+import juanpold from '../../assets/img/team/hexaJuanpold.png';
+import jungle from '../../assets/img/team/hexaJungle.png';
+import kadi from '../../assets/img/team/hexaKadi.png';
+import lucas from '../../assets/img/team/hexaLucas.png';
+import luks from '../../assets/img/team/hexaLuks.png';
+import opy from '../../assets/img/team/hexaOpy.png';
+import pela from '../../assets/img/team/hexaPela.png';
 
 function Equipo() {
     const imagenes = [
@@ -24,7 +24,7 @@ function Equipo() {
         pela
     ]
 
-    console.log(imagenes.map((e) => e))
+    console.log("imagenes>>", imagenes);
     return (
         <div className={styles.teamContainer}>
             {/* <h2>Conoce nuestro equipo de trabajo</h2> */}
@@ -47,7 +47,6 @@ function Equipo() {
                         </div>
                     );
                 })}
-                
             </div>
         </div>
     );
