@@ -32,6 +32,12 @@ function Certificados() {
                     <img className={styles.logo} src={marco} alt="Marco de foto para los certificados" />
                 </div>
             </NavLink>
+            <NavLink to="/certificados/KYC-IngeniousMiner">
+                <div className={styles.item}>
+                    <label>Ingenious Miner</label>
+                    <img className={styles.logo} src={marco} alt="Marco de foto para los certificados" />
+                </div>
+            </NavLink>
             <NavLink to="/certificados/KYC-CryptoOne">
                 <div className={styles.item}>
                     <label>Crypto One</label>
@@ -47,6 +53,12 @@ function Certificados() {
             <NavLink to="/certificados/KYC-IndigsLegend">
                 <div className={styles.item}>
                     <label>Indigs Legend</label>
+                    <img className={styles.logo} src={marco} alt="Marco de foto para los certificados" />
+                </div>
+            </NavLink>
+            <NavLink to="/certificados/KYC-Loxar">
+                <div className={styles.item}>
+                    <label>Loxar Games</label>
                     <img className={styles.logo} src={marco} alt="Marco de foto para los certificados" />
                 </div>
             </NavLink>

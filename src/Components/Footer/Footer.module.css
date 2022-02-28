@@ -10,6 +10,9 @@
     align-items: center;
     gap: 5rem;
 }
+.footerIcons ul li{
+    list-style: none;
+}
 
 .mail{
     cursor: pointer;
@@ -22,7 +25,7 @@
 .modal{
     display: none;
     position: absolute;
-    top: 0;
+    top: -60%;
     width: 100%;
     background: linear-gradient(to right, rgba(245, 215, 62, 0.5)0%, rgba(245, 216, 62)50%, rgba(245, 215, 62, 0.5)100%);
     padding: 2rem;

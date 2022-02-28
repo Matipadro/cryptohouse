@@ -8,7 +8,7 @@ function Nosotros() {
         <div className={styles.nosotrosContainer}>
 
         <div className={styles.nosotros}>
-            <h2>Nosotros</h2>
+            <h2>Sobre Nosotros</h2>
             <p> 
                 CryptoHouse se compromete a crear un ambiente seguro y fiable en el mundo Cripto. <br /> <br />
                 Estamos orgullosos de nuestro equipo de trabajo, quienes día a día se esfuerzan para dar la
@@ -16,14 +16,14 @@ function Nosotros() {
                 proyecto de cero. <br /> <br />
                 Nos comprometemos a trabajar con premura, siempre manteniendo nuestros valores y ética.
                 Nos comprometemos a ofrecer la mayor seguridad posible, sin poner en riesgo los datos
-                sensibles de quienes contraten nuestros servicios de K.Y.C. Nosotros, ya pusimos en marcha los 
-                engranajes para poder brindar a la comunidad la seguridad que necesitan frente a los proyectos 
-                de inversión por venir, tomando todos los recaudos necesarios y tomándonos el tiempo que sea 
+                sensibles de quienes contraten nuestros servicios de K.Y.C. <br />
+                Nosotros, ya pusimos en marcha los engranajes para poder brindar a la comunidad la seguridad que necesitan 
+                frente a los proyectos de inversión por venir, tomando todos los recaudos necesarios y tomándonos el tiempo que sea 
                 necesario para cumplir este objetivo.
             </p>
         </div>
 
-        <Comunidad />
+        {/* <Comunidad /> */}
         <Equipo/>
         </div>
     );

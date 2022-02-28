@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import styles from './Integrantes.module.css';
-import luks from '../../../assets/img/team/luksPerfil.png';
+import justluks from '../../../assets/img/team/luksPerfil.png';
 import equis from '../../../assets/img/X.png';
 import instagram from '../../../assets/img/logoInsta.png';
 import twitter from '../../../assets/img/logoTwitter.png';
@@ -11,12 +11,14 @@ import youtube from '../../../assets/img/logoYT.png';
 function Equipo() {
     const history = useNavigate();
 
-    console.log(">>>", luks)
+    console.log(">>>", justluks)
+    console.log(">X>", equis)
+    console.log(">insta>", instagram)
 
     return (
         <div className={styles.integrante}>
-            <img className={styles.close} src={equis} alt="Cruz para cerrar perfil" onClick={() => history(-1)}/>
-            <img className={styles.perfilImg} src={luks} alt="Foto del perfil de Justluks" />
+            <img src={equis} className={styles.close}  alt="Cruz para cerrar perfil" onClick={() => history(-1)}/>
+            <img src={justluks} className={styles.perfilImg} alt="Foto del perfil de Justluks" />
             <div className={styles.card}>
                 <label>Justluks</label>
                 <div className={styles.cargo}>

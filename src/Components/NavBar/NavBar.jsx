@@ -26,11 +26,11 @@ function NavBar() {
                     <li className={location.pathname === '/certificados' ? activeClassName : null}><NavLink to="/certificados" className={styles.navlink}>Certificados</NavLink></li>
                 </ul>
             </div>
-            <div className={styles.audioPlay}>
+            {/* <div className={styles.audioPlay}>
                 <audio autoPlay loop>
                     <source src={criptoTune} type="audio/mpeg" />
                 </audio>
-            </div>
+            </div> */}
         </div>
     );
 }

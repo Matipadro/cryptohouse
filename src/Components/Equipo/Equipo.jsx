@@ -27,12 +27,12 @@ function Equipo() {
     console.log("imagenes>>", imagenes);
     return (
         <div className={styles.teamContainer}>
-            {/* <h2>Conoce nuestro equipo de trabajo</h2> */}
+            <h2>Conoce nuestro equipo de trabajo</h2>
             <div className={styles.cards}>
                 {team?.map((e) => {
                     return(
                         <div key={e.id}>
-                            <NavLink to={`/nosotros/${e.link}`}>
+                            <NavLink to={`${e.link}`}>
                                 <Card
                                     name={e.name}
                                     img={e.img}

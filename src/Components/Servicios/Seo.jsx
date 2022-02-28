@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import styles from './Servicio.module.css';
-import seo from '../../assets/img/services/ceo.png';
+import seo from '../../assets/img/services/seo.svg';
 import equis from '../../assets/img/X.png';
 
 function Equipo() {
