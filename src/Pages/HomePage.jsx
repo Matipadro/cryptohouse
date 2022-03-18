@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import { gsap, scrollTrigger } from "gsap";
 import styles from '../Styles/HomePage.module.css';
 import highlights from '../assets/video/cryptohouseTeaser.mp4';
 import foto1 from '../assets/img/foto1.jpg';
@@ -6,6 +7,14 @@ import foto2 from '../assets/img/foto2.jpg';
 import foto3 from '../assets/img/foto3.jpg';
 
 function HomePage() {
+
+	const photoRef = useRef();
+
+	useEffect(() => {
+
+		// gsap.to(photoRef.current, {scrollTrigger:{trigger:photoRef.current, start: "top bottom", end: "top center", scrub: true}, x: -500, duration: 2})
+	})
+
     return (
         <section >
 			<div className={styles.videoContent}>
@@ -27,7 +36,7 @@ function HomePage() {
 						producen problemas que nosotros buscamos solucionar con nuestros distintos servicios, como formulario
 						K.Y.C., Web Marketing, Auditoria, entre otros.
 				</p>
-				<div className={styles.pictureContent}>
+				<div className={styles.pictureContent} ref={photoRef}>
 					<img className={styles.logo} src={foto1} alt="Marco de foto para los partners" />
 					<img className={styles.logo} src={foto2} alt="Marco de foto para los partners" />
 					<img className={styles.logo} src={foto3} alt="Marco de foto para los partners" />

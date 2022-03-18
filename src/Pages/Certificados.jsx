@@ -62,6 +62,18 @@ function Certificados() {
                     <img className={styles.logo} src={marco} alt="Marco de foto para los certificados" />
                 </div>
             </NavLink>
+            <NavLink to="/certificados/KYC-ChiaTK">
+                <div className={styles.item}>
+                    <label>ChiaTK</label>
+                    <img className={styles.logo} src={marco} alt="Marco de foto para los certificados" />
+                </div>
+            </NavLink>
+            <NavLink to="/certificados/KYC-DefiDicePlay">
+                <div className={styles.item}>
+                    <label>Defi Dice Play</label>
+                    <img className={styles.logo} src={marco} alt="Marco de foto para los certificados" />
+                </div>
+            </NavLink>
             </div>
         </div>
     );

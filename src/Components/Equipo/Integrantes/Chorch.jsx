@@ -17,7 +17,7 @@ function Equipo() {
             <img className={styles.close} src={equis} alt="Cruz para cerrar perfil" onClick={() => history(-1)}/>
             <img className={styles.perfilImg} src={chorch} alt="Foto del perfil de Chorchtawn" />
             <div className={styles.card}>
-                <label>Chochtawn</label>
+                <label>Chorchtawn</label>
                 <div className={styles.cargo}>
                     <h4>Director de Operaciones</h4>
                     <h4>COO</h4>

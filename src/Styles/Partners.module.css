@@ -1,4 +1,5 @@
-.partnersContainer{
+.partnersContainer,
+.partner{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,15 +19,23 @@
     padding: 1rem 0;
 }
 
+.partner{
+    gap: 0rem;
+}
+
+.partnerImg{
+    
+}
+
 .partner h4{
-    width: 20rem;
+    width: 15rem;
     margin-top: 3rem;
-    margin-left: -4rem;
     padding: 1rem;
     font-size: 2.4rem;
     font-family: var(--abolition-font);
     text-align: center;
     text-transform: uppercase;
+    color: var(--second-color);
     background-color: var(--main-color);
     border: 2px solid var(--second-color);
     border-left: transparent;
@@ -66,4 +75,25 @@
     background-color: var(--main-color);
     transform: rotate(45deg);
     z-index: -1;
+}
+
+.partner h4:hover,
+.partner h4:hover::before,
+.partner h4:hover::after{
+    border: 2px solid var(--alter3-color);
+}
+
+
+.partner h4:hover{
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.partner h4:hover::before{
+    border-top: transparent;
+    border-right: transparent;
+}
+.partner h4:hover::after{
+    border-bottom: transparent;
+    border-left: transparent;
 }

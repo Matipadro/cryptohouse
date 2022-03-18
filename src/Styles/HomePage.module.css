@@ -27,6 +27,7 @@
 	overflow: hidden;
 }
 .video{
+	width: 100%;
 	margin-top: -10.1rem;
 }
 
@@ -36,9 +37,30 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	gap: 1rem;
 }
 
 .pictureContent img{
 	width: 38rem;
+	max-width: 90%;
 	border-radius: 10px;
+	box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.21);
 }
+
+
+	@media screen and (max-width: 1100px) {
+		.textPrincipal p{
+		padding: 2rem 6rem;
+		}
+		.videoContent{
+			height: auto;
+		}
+		.video{
+			margin-top: 0.1rem;
+		}
+	}
+	@media screen and (max-width: 800px) {
+		.textPrincipal p{
+		padding: 2rem 1rem;
+		}
+	}

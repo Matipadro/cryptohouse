@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useLocation, NavLink } from "react-router-dom";
 import styles from './NavBar.module.css';
 import logo from '../../assets/img/cryptohouseHorizontal.png';
@@ -17,6 +17,9 @@ function NavBar() {
                 <img className={styles.logo} src={logo} alt="Logo CryptoHouse horizontal" />
                 {/* <img className={styles.darkmode} src={darkmode} alt="Luna para Dark Mode" /> */}
             </div>
+                <div className={styles.mobileMenu}>
+                    <span></span>
+                </div>
             <div className={styles.mainMenu} >
                 <ul>
                     <li className={location.pathname === '/' ? activeClassName : null}><NavLink to="/" className={styles.navlink}>Inicio</NavLink></li>

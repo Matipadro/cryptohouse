@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 import telegram from '../../assets/img/iconTelegram.png';
 import mail from '../../assets/img/mail.png';
 import equis from '../../assets/img/X.png'
-import criptoTune from '../../assets/audio/criptoTune.mp3'
+import criptoTune from '../../assets/audio/criptoTune-12db.mp3'
 
 function Footer() {
     const [isActive, setActive] = useState(false);

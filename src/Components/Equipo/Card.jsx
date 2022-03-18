@@ -14,6 +14,7 @@ function Card({name, img}){
     return(
         <div className={styles.card + " " + classActive} onClick={toggleClass}>
             <div className={styles.professionalContainer}>
+                <span>VER MÁS</span>
                 <img src={img} alt="imagenes del team" />
             </div>
             <label>{name}</label>

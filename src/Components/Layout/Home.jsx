@@ -20,6 +20,8 @@ import Wos from '../Certificados/Worldofswords';
 import Cryptoone from '../Certificados/Cryptoone';
 import Ingenious from '../Certificados/Ingeniousminer';
 import Loxar from '../Certificados/Loxar';
+import Chia from '../Certificados/Chiatk';
+import Defi from '../Certificados/Defidiceplay';
 
 const Home = () => {
     return (
@@ -43,6 +45,8 @@ const Home = () => {
                 <Route exact path="/certificados/KYC-WorldOfSwords" element={<Wos />} />
                 <Route exact path="/certificados/KYC-IngeniousMiner" element={<Ingenious />} />
                 <Route exact path="/certificados/KYC-Loxar" element={<Loxar />} />
+                <Route exact path="/certificados/KYC-ChiaTK" element={<Chia />} />
+                <Route exact path="/certificados/KYC-DefiDicePlay" element={<Defi />} />
                 <Route exact path='*' element={<Navigate to="/" />} />
             </Routes>
             <Footer />

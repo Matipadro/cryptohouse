@@ -1,5 +1,6 @@
 .teamContainer{
     min-height: 100vh;
+    margin-bottom: 5rem;
 }
 
 .teamContainer h2{
@@ -41,6 +42,36 @@
 .card:hover{
     filter: drop-shadow(0 0 15px var(--main-color));
     transform: scale(1.2);
+    transition: all 1s;
+}
+.professionalContainer{
+    position: relative;
+}
+.card:hover .professionalContainer img{
+    filter: grayscale(2);
+    z-index: 2;
+}
+.professionalContainer span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: var(--american-font);
+    font-size: 6.6rem;
+    color: var(--main-color);
+    z-index: 20;
+    filter: drop-shadow(0 0 8px #000);
+    display: none;
+    transition: 1.5s;
+    transition-delay: 1.7s;
+}
+.card:hover .professionalContainer span{
+    display: block;
+    font-size: 2.6rem;
+    transition: 1.5s;
+    transition-delay: .7s;
 }
 .card label{
     position: relative;
